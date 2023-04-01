@@ -6,7 +6,8 @@ const Navbar = () => {
     <header className="p-4 bg-gray-100 text-gray-800">
 	<div className="container flex justify-between h-16 mx-auto">
 		< a to="" aria-label="Back to homepage" className="flex items-center p-2">
-			<h3 className='logo'>KAYAK</h3>
+			{/* <h3 className='logo'>KAYAK</h3> */}
+			<img className='w-1/3' src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Kayak_Logo.svg" alt="" />
 		</ a>
 		<ul className="items-stretch hidden space-x-3 lg:flex">
 			<li className="flex">
